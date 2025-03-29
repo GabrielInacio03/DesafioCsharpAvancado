@@ -1,0 +1,39 @@
+# Folders de build geradas pelo Visual Studio
+obj/
+bin/
+
+# Configurações do Visual Studio
+*.vs/
+.vscode/
+
+# Logs
+*.log
+
+# Arquivos temporários
+[Tt]emp/
+[Tt]humbs.db
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Usuários específicos e caches do IDE
+user*.prefs
+*.ideaworkspace
+.idea/
+
+# Dependências geradas
+**/node_modules/
+**/packages/
+
+# Arquivos gerados durante o build do .NET
+*.pid
+*.pdb
+*.lock.json
+*.cache
+*.csproj.user
+
+# Logs e backups
+*.bak
+*.swp
+*.swo
