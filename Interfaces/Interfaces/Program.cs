@@ -6,7 +6,11 @@ namespace Interfaces
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var veiculo = new HondaCivic();
+            veiculo.Ano = 1999;
+            veiculo.Marca = "Honda";
+            veiculo.Nome = "Honda Civic Lx";
+            veiculo.Salvar();
         }
     }
 }
